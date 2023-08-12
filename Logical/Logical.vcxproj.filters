@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Numbers">
+      <UniqueIdentifier>{0a574d16-8885-43f9-bb0b-98a1be3d691c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Strings">
+      <UniqueIdentifier>{7d69b1b6-5d98-4730-a9a5-9ac4bd4e4fed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Pattern">
+      <UniqueIdentifier>{7d1b8bfe-7e00-4c93-8c1b-19bd9436a6c4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Logical.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FactorialOfNumber.cpp">
+      <Filter>Source Files\Numbers</Filter>
+    </ClCompile>
+    <ClCompile Include="FibonacciSeries.cpp">
+      <Filter>Source Files\Numbers</Filter>
+    </ClCompile>
+    <ClCompile Include="PalindromeNumber.cpp">
+      <Filter>Source Files\Numbers</Filter>
+    </ClCompile>
+    <ClCompile Include="PrimeNumber.cpp">
+      <Filter>Source Files\Numbers</Filter>
+    </ClCompile>
+    <ClCompile Include="SwapCharString.cpp">
+      <Filter>Source Files\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Dimond.cpp">
+      <Filter>Source Files\Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="Pyramid.cpp">
+      <Filter>Source Files\Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="SPYNumber.cpp">
+      <Filter>Source Files\Numbers</Filter>
+    </ClCompile>
+    <ClCompile Include="PerfectNumber.cpp">
+      <Filter>Source Files\Numbers</Filter>
+    </ClCompile>
+    <ClCompile Include="AlphabeticalOrder.cpp">
+      <Filter>Source Files\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoveDuplicateStr.cpp">
+      <Filter>Source Files\Strings</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
