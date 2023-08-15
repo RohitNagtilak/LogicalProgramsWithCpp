@@ -11,7 +11,7 @@ int main()
 
 	for (int i = 1; i <= num; i++)
 	{
-		fact = fact * i;
+		fact *= i;
 	}
 
 	cout << "\nFactorial is :" << fact<<endl;

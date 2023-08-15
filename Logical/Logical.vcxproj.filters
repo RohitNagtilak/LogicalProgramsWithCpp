@@ -22,11 +22,11 @@
     <Filter Include="Source Files\Pattern">
       <UniqueIdentifier>{7d1b8bfe-7e00-4c93-8c1b-19bd9436a6c4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Array">
+      <UniqueIdentifier>{7397bf95-af74-4c0c-b8e9-07bfcbde25be}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Logical.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="FactorialOfNumber.cpp">
       <Filter>Source Files\Numbers</Filter>
     </ClCompile>
@@ -59,6 +59,24 @@
     </ClCompile>
     <ClCompile Include="RemoveDuplicateStr.cpp">
       <Filter>Source Files\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoveDuplicateEle.cpp">
+      <Filter>Source Files\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="ReverseString.cpp">
+      <Filter>Source Files\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="PalindromeString .cpp">
+      <Filter>Source Files\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="MySizeOf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FibonacciSeriesRecursion.cpp">
+      <Filter>Source Files\Numbers</Filter>
+    </ClCompile>
+    <ClCompile Include="EvenOdd.cpp">
+      <Filter>Source Files\Numbers</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
